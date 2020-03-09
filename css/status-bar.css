@@ -1,0 +1,14 @@
+.status-bar {
+    display: flex; /* flex: 하나의 플렉스 아이템이 자신의 컨테이너가 차지하는 공간에 맞추기 위해 크기 조절*/
+    justify-content: space-between; /*두 개의 속성을 떨어뜨림(div 기준)*/
+    margin-bottom: 30px;
+    opacity: 0.7; /* 컬러 흐리게 */
+}
+
+.status-bar i {
+    font-size: 14px;
+}
+
+.status-bar .status-bar__battery-level {
+    margin-left: 5px;
+}
