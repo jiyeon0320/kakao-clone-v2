@@ -3,9 +3,15 @@
 @import 'status-bar.css';
 @import 'header.css';
 @import 'nav-bar.css';
+@import 'friend.css';
+@import 'friends.css';
+@import 'find.css';
+@import 'more.css';
+@import 'settings.css';
+@import 'chat.css';
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* padding을 추가해도 박스 크기는 고정(보여지는 박스 부분이 줄어듦) */
 }
 
 body {
@@ -18,4 +24,5 @@ body {
 
 a {
     color: inherit; /*부모요소로부터 가져오겠다. 현재  #020202*/
+    text-decoration: none; /* a태그의 밑줄 사라짐 */
 }
